@@ -1,0 +1,31 @@
+{
+  "name": "clinic-management-system",
+  "version": "1.0.0",
+  "description": "A comprehensive web-based clinic management system designed to streamline administrative tasks, enhance patient experience, and provide insightful business analytics for healthcare practices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamonRicci/clinic-management-system.git"
+  },
+  "author": "Damon Ricci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamonRicci/clinic-management-system/issues"
+  },
+  "homepage": "https://github.com/DamonRicci/clinic-management-system#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap-vue": "^2.23.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.4.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
